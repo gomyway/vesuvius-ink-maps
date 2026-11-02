@@ -60,11 +60,11 @@ Read a map in Python:
 
 ```python
 import zarr
-ink = zarr.open('data/ink/PHerc1447/20250702235910/ensemble_fwd.ome.zarr/0', mode='r')[:]  # (H, W) uint8 = round(255 p)
+# paths as unpacked from the release assets (tar -xf); a local build has the same tree under data/
+ink = zarr.open('ink/PHerc1447/20250702235910-auto_grown_20250702235910292/ensemble_fwd.ome.zarr/0', mode='r')[:]  # (H, W) uint8 = round(255 p)
 ```
 
-Open the scroll-space overlay in VC3D: File > Open Data Catalog, add
-`data/ink/PHerc1447/vc3d_overlays/PHerc1447_ink_ensemble_fwd.zarr` as a volume, select it in the Volume Overlay panel.
+**VC3D load recipe (one line):** open the scroll in VC3D (File > Open Data Catalog), add the unpacked `ink/<scroll>/vc3d_overlays/<scroll>_ink_ensemble_fwd.zarr` as a volume (same dims and 128^3 chunks as the scroll volume, VC3D `meta.json`), then pick it in the Volume Overlay panel.
 
 ### Low-VRAM surface_m7
 
@@ -87,7 +87,7 @@ Both print one JSON line with `loop_s`, `Mvox_per_s`, `torch_max_allocated_MiB` 
 SURFACE_DEVICE=cuda python scripts/surface_segment_cpu.py PHerc0800 20251029010146     # or SURFACE_DEVICE=cpu (slow)
 ```
 
-Done so far: 3 of 21 segments; per-segment settings and check results in `MANIFEST_surface.json` ("segment_overlays"). The first (PHerc0800 20251029010146) ran on CPU at patch 192 / step 0.75 (252 tiles in 90 min, check 11/11); GPU runs use patch 128 / step 0.5, the 1.6 GiB setting. See `docs/INK_RESULTS.md`.
+Done so far: 3 of 21 segments; per-segment settings and check results in `MANIFEST_surface.json` ("segment_overlays"). The first (PHerc0800 20251029010146) ran on CPU at patch 192 / step 0.75 (252 tiles in 90 min, check 11/11); GPU runs use patch 128 / step 0.5, the 1.6 GiB setting. See `docs/INK_RESULTS.md`. The release asset `PHerc0800_vc3d_overlays_PHerc0800_surface_m7.zarr.tar` (tree as in `MANIFEST_ink.json`) holds the first segment only; the overlay with all 3 (4.5 GB, over the 2 GiB per-asset limit) is described by `MANIFEST_surface.json` and is not yet a release asset.
 
 ### Fast ink inference on upstream villa
 

@@ -37,7 +37,9 @@ Check = `scripts/check_vc3d.py` (VC3D Volume.cpp meta.json and level-shape rules
 
 **First Letters check** (PHerc0800 is FL-eligible): all 6 PHerc0800 contact sheets were inspected, and 2 suspicious regions were zoomed at full resolution. No rows of letterforms were found. One letter-sized ring in Hecate rev on 20251028220042 is single-model, with no CT support, so it is not a lead. See PROGRESS.md 2026-11-01 10:36-10:49Z.
 
-## surface_m7 scroll-space overlay (added 2026-11-02): 1 of 21 segments
+## surface_m7 scroll-space overlay (added 2026-11-02): 3 of 21 segments
+The table below is the first (CPU) run; the two GPU runs (PHerc0800 20251028220042, 20251028220955, patch 128 / step 0.5, both 11/11 PASS) are recorded in `MANIFEST_surface.json` ("segment_overlays").
+
 `scripts/surface_segment_cpu.py` runs the low-VRAM surface_m7 runner over a segment's 128-aligned bounding box and writes the
 surface probability into `data/ink/<scroll>/vc3d_overlays/<scroll>_surface_m7.zarr` (sparse, 6 levels, VC3D meta.json, same
 shape and chunks as the scroll volume), then checks it: VC3D meta/level-shape rules, readback at 2,000 tifxyz surface points,

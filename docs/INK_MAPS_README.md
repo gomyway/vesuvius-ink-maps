@@ -17,7 +17,7 @@ Data: Vesuvius Challenge open data, CC BY-NC 4.0. Code: MIT (scripts/ in the wor
       6 levels, meta.json), with every segment's map value written at its surface position
 <scroll>/vc3d_overlays/<scroll>_surface_m7.zarr
       surface_m7 surface probability (uint8) inside the bounding boxes of the processed segments (see
-      surface_status.json; 1 of 21 so far), same layout as the ink overlays
+      surface_status.json; 3 of 21 so far), same layout as the ink overlays
 <scroll>/<segment>/surface_check.json   VC3D + readback check of the surface overlay for that segment
 status.json        per-segment pipeline status (ink)
 surface_status.json  per-segment surface_m7 status
