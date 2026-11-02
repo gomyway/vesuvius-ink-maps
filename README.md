@@ -127,6 +127,44 @@ The memory saving grows with volume size (4.7x at 640^3 / patch 128) because the
 `MANIFEST_surface.json`: the surface_m7 sample-block outputs with sha256. The data itself is published separately
 (see the manifest for paths and sizes); it is derived from CC BY-NC 4.0 scroll data and keeps that license.
 
+<!-- vesuvius_publish:assets start -->
+
+The ink maps are GitHub release assets of [ink-maps-v1](https://github.com/gomyway/vesuvius-ink-maps/releases/tag/ink-maps-v1): one tar per segment directory or overlay volume, paths inside as in `MANIFEST_ink.json`. Unpack with `tar -xf <asset>`; check with `sha256sum`.
+
+| asset | bytes | sha256 |
+|---|---:|---|
+| [PHerc0800_20251028213516-auto_grown_20251028213516907.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_20251028213516-auto_grown_20251028213516907.tar) | 22,292,480 | `09a09173c7a615370bc1e54851fb50f2671ae35f63c2c8bc0897c2a67b792748` |
+| [PHerc0800_20251028220042-auto_grown_20251028220042762.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_20251028220042-auto_grown_20251028220042762.tar) | 115,353,600 | `77eadbd70d6b5433425c41e2774f220bf59d82e6e690b9e093295ca00ef60b5a` |
+| [PHerc0800_20251028220955-auto_grown_20251028220955262.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_20251028220955-auto_grown_20251028220955262.tar) | 15,923,200 | `458d3f5c8c129848e050e6f6a75b8caa92ead08ae468c1a0f9aeb560c4690a41` |
+| [PHerc0800_20251028222030-auto_grown_20251028222030940.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_20251028222030-auto_grown_20251028222030940.tar) | 15,841,280 | `86d7ba44614d9da71282394d6cb19fcfa81c0aaae06575268c32cc9bb35890ca` |
+| [PHerc0800_20251028225813-auto_grown_20251028225813045.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_20251028225813-auto_grown_20251028225813045.tar) | 13,864,960 | `02ecfd9a20d7d0263a15d1361cf9bb51bd1e23582b509108c891ce8fbe0921f6` |
+| [PHerc0800_20251029010146-auto_grown_20251029010146642.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_20251029010146-auto_grown_20251029010146642.tar) | 4,812,800 | `5bb25bc6fbf97cba616cda6d6062a6d52a82a6de59c36511e9353a15d2d2ed1c` |
+| [PHerc0800_vc3d_overlays_PHerc0800_ink_ensemble_fwd.zarr.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_vc3d_overlays_PHerc0800_ink_ensemble_fwd.zarr.tar) | 48,629,760 | `a6a7651f580ba372f4f35df60e91d89e6b3a5d1a2b1bacac2f7a35c0e19afc68` |
+| [PHerc0800_vc3d_overlays_PHerc0800_ink_ensemble_rev.zarr.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_vc3d_overlays_PHerc0800_ink_ensemble_rev.zarr.tar) | 53,780,480 | `058d4c2778816c5c9ecfe0a64c93fdb1390b64297238a8dfbceed0d169d47a2b` |
+| [PHerc0800_vc3d_overlays_PHerc0800_ink_readerv2_fwd.zarr.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_vc3d_overlays_PHerc0800_ink_readerv2_fwd.zarr.tar) | 53,882,880 | `986a4eed475c3977f5277f2edc838d34d34a41a6693e1a3b15769748106896f5` |
+| [PHerc0800_vc3d_overlays_PHerc0800_surface_m7.zarr.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc0800_vc3d_overlays_PHerc0800_surface_m7.zarr.tar) | 607,508,480 | `f8db872ac3ff44d6560a28bb0d9467ea878b5eb584893b68d25aa582818c3451` |
+| [PHerc1447_20250502180708-auto_grown_20250502160708188.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502180708-auto_grown_20250502160708188.tar) | 2,754,560 | `38bc6aa779ae5eecde4ba487fc3eeabacf64b9a3dd83373b3f12433a2ec0de8e` |
+| [PHerc1447_20250502180748-auto_grown_20250502160748721.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502180748-auto_grown_20250502160748721.tar) | 6,256,640 | `03d414aa295b5dc4ef85536569db54619c000bfbba360edbef63cd176e6285cb` |
+| [PHerc1447_20250502182142-auto_grown_20250502161324419.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502182142-auto_grown_20250502161324419.tar) | 8,939,520 | `c017997df3c0be745d95c0eb77e6034bf11a0516b2390d86c45e435f57998b2b` |
+| [PHerc1447_20250502182456-auto_grown_20250502161202782.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502182456-auto_grown_20250502161202782.tar) | 10,946,560 | `ee2e3504cf840b7a991d09e2756613f19ed6f7cad1b77becc968599563052564` |
+| [PHerc1447_20250502183138-auto_grown_20250502162038685.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502183138-auto_grown_20250502162038685.tar) | 161,136,640 | `7de9935bf80ed009e439bf33879a3cf9ba3dd509f4480fab19bde449c12a2927` |
+| [PHerc1447_20250502183421-auto_grown_20250502161744358.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502183421-auto_grown_20250502161744358.tar) | 9,553,920 | `c76957d27dee453e5692cd1752d9acc5411a4e8c0deb29f7e58bc3ccf740a15e` |
+| [PHerc1447_20250502184201-auto_grown_20250502163549332.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502184201-auto_grown_20250502163549332.tar) | 187,832,320 | `5b0f9468aad6775ea2dccf99ec045ca6331907ba8e0d4ddce4cef64c4a0e9b01` |
+| [PHerc1447_20250502184658-auto_grown_20250502163923577.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502184658-auto_grown_20250502163923577.tar) | 283,832,320 | `86d871798140176705a3740ede63876704fd2fc519affa39d2d23711c439c395` |
+| [PHerc1447_20250502184845-auto_grown_20250502164121265.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502184845-auto_grown_20250502164121265.tar) | 12,871,680 | `3c183252cc59bcddcd773e2879904573ac263422fc60406b98570c8b14b392ea` |
+| [PHerc1447_20250502185519-auto_grown_20250502164303733.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502185519-auto_grown_20250502164303733.tar) | 9,420,800 | `7c6d622cace6f35950a36a6b715f76a836a9f12daeaf9bb6a404eef870063543` |
+| [PHerc1447_20250502205333-auto_grown_20250502181030065.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250502205333-auto_grown_20250502181030065.tar) | 237,445,120 | `e3cb521d95fa8cbbde04e0c4c46a2ff9b92c6f5b26fea209b947844480911d02` |
+| [PHerc1447_20250702235910-auto_grown_20250702235910292.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250702235910-auto_grown_20250702235910292.tar) | 28,968,960 | `dd0d885dbbdf5909a59df8add7938d966b04381c461b358b63ab99cba4bf099d` |
+| [PHerc1447_20250703025628-auto_grown_20250703025628283.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250703025628-auto_grown_20250703025628283.tar) | 41,420,800 | `2f7d95e3226a018f2107bcb57ffb8bc9b26cd684f88681490bed15efad9e3e9d` |
+| [PHerc1447_20250703034159-auto_grown_20250703034159599.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20250703034159-auto_grown_20250703034159599.tar) | 484,239,360 | `96feab901e67c9873f9ac91c6d622013409002ae5854b9891b630de2cb9f5e4a` |
+| [PHerc1447_20251105093211-z_dbg_gen_00320.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_20251105093211-z_dbg_gen_00320.tar) | 53,780,480 | `30ac0eb65700bdcf63240ad0b67e37682be197bdc222a7865ffd7f54daf842f4` |
+| [PHerc1447_vc3d_overlays_PHerc1447_ink_ensemble_fwd.zarr.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_vc3d_overlays_PHerc1447_ink_ensemble_fwd.zarr.tar) | 170,915,840 | `fa2646a8b1d41ff70d997a1e7ce718aed26c7fb06dd27f178fff04910abbdc77` |
+| [PHerc1447_vc3d_overlays_PHerc1447_ink_ensemble_rev.zarr.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_vc3d_overlays_PHerc1447_ink_ensemble_rev.zarr.tar) | 184,524,800 | `e6e397389cfeba9ea41ad461727f7550b809c1e28c62d638ca4fa75c3dbc87b2` |
+| [PHerc1447_vc3d_overlays_PHerc1447_ink_readerv2_fwd.zarr.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/PHerc1447_vc3d_overlays_PHerc1447_ink_readerv2_fwd.zarr.tar) | 206,960,640 | `2210809bbb24db6a4138f682e71856a0393cafccfa85dbc7547949be251960c8` |
+| [ink_README_status.tar](https://github.com/gomyway/vesuvius-ink-maps/releases/download/ink-maps-v1/ink_README_status.tar) | 20,480 | `0f7220622039f4941ed22b31f9bbbf5bc9012a6258c46581218b150e12a353f4` |
+
+<!-- vesuvius_publish:assets end -->
+
 ## Credits
 
 This work builds entirely on public data, public models and public code:
