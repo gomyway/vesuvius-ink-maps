@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software or its outputs, please cite it as below, together with the upstream data, code and model credits listed in README.md (Credits)."
+title: "vesuvius-ink-maps: registered ink maps for the public PHerc. 0800 / PHerc. 1447 segments, a low-VRAM surface_m7 runner, and an ink-inference benchmark"
+type: software
+authors:
+  - name: "vesuvius-ink-maps contributors"
+license: MIT
+date-released: "2026-11-02"
+repository-code: "{REPO_URL}"
+abstract: "Ink maps (reader-v2 and Hecate, forward and reverse) for all 21 public segments of PHerc. 0800 and PHerc. 1447 as VC3D-loadable OME-Zarr, a 1.6 GiB-VRAM runner for the surface_m7 nnU-Net surface model, and a measured benchmark of villa flat ink inference. Built on Vesuvius Challenge open data (CC BY-NC 4.0), ScrollPrize/villa (MIT), reader-v2 (MIT), Hecate (MIT) and surface_m7_nnunet (Apache-2.0)."
+references:
+  - type: software
+    title: "ScrollPrize/villa"
+    repository-code: "https://github.com/ScrollPrize/villa"
+    license: MIT
+    notes: "commit e89cdf3 (2026-11-01)"
+  - type: software
+    title: "Vesuvius Grand Prize 2023 ink detection (TimeSformer)"
+    authors:
+      - family-names: Nader
+        given-names: Youssef
+      - family-names: Farritor
+        given-names: Luke
+      - family-names: Schilliger
+        given-names: Julian
+    repository-code: "https://github.com/younader/Vesuvius-Grandprize-Winner"
+    license: MIT
+  - type: software
+    title: "reader-v2"
+    authors:
+      - name: domenicor046
+    url: "https://huggingface.co/domenicor046/reader-v2"
+    license: MIT
+  - type: software
+    title: "Hecate"
+    authors:
+      - name: "Vesuvius Challenge (scrollprize)"
+    url: "https://huggingface.co/scrollprize/hecate"
+    license: MIT
+  - type: software
+    title: "surface_m7_nnunet"
+    url: "https://huggingface.co/scrollprize/surface_m7_nnunet"
+    license: Apache-2.0
+  - type: data
+    title: "Vesuvius Challenge open data: PHerc. 0800 and PHerc. 1447 scans and segments"
+    authors:
+      - name: "Vesuvius Challenge"
+      - name: "EduceLab, University of Kentucky"
+    url: "https://scrollprize.org/data"
+    license: CC-BY-NC-4.0

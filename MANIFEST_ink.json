@@ -1,0 +1,224 @@
+{
+ "generated_utc": "2026-11-02T02:27:27Z",
+ "entries": [
+  {
+   "path": "ink/PHerc0800/20251028213516-auto_grown_20251028213516907",
+   "kind": "tree",
+   "files": 292,
+   "bytes": 22050914,
+   "tree_sha256": "b926886fa524172cb82794cc8378db21aef93aa305b58405c7ff788a5f88925b"
+  },
+  {
+   "path": "ink/PHerc0800/20251028220042-auto_grown_20251028220042762",
+   "kind": "tree",
+   "files": 191,
+   "bytes": 115199604,
+   "tree_sha256": "0e3656e909fad7f2c30d3ab9f752fa4ea90a0021a0a2ca3df7dd5b69f255e70d"
+  },
+  {
+   "path": "ink/PHerc0800/20251028220955-auto_grown_20251028220955262",
+   "kind": "tree",
+   "files": 291,
+   "bytes": 15678668,
+   "tree_sha256": "6417d10e40b8fa93d8f6094f742d719b2aef0a7f5d3c6bddacc5757b4f66a8f6"
+  },
+  {
+   "path": "ink/PHerc0800/20251028222030-auto_grown_20251028222030940",
+   "kind": "tree",
+   "files": 357,
+   "bytes": 15544493,
+   "tree_sha256": "c3592c2b9d4590ca24cc451fae334215c6ac169a0ab5af0e0ac24fa716dff2de"
+  },
+  {
+   "path": "ink/PHerc0800/20251028225813-auto_grown_20251028225813045",
+   "kind": "tree",
+   "files": 291,
+   "bytes": 13628639,
+   "tree_sha256": "8f8a68d953a17a79489478ba066e754f5570e78393109c0b2691636676c66d50"
+  },
+  {
+   "path": "ink/PHerc0800/20251029010146-auto_grown_20251029010146642",
+   "kind": "tree",
+   "files": 100,
+   "bytes": 4733755,
+   "tree_sha256": "d60ebe61df6a0ee40aa891a1321914c25bd03fdcdde52f6aa4e07901968af249"
+  },
+  {
+   "path": "ink/PHerc0800/vc3d_overlays/PHerc0800_ink_ensemble_fwd.zarr",
+   "kind": "tree",
+   "files": 648,
+   "bytes": 48126771,
+   "tree_sha256": "10da29242e78b57de8b01a93a774eb831be016b0f0b4dd52e279e5d4867cb548"
+  },
+  {
+   "path": "ink/PHerc0800/vc3d_overlays/PHerc0800_ink_ensemble_rev.zarr",
+   "kind": "tree",
+   "files": 648,
+   "bytes": 53277572,
+   "tree_sha256": "39dde4c6c5af215f19b8ff24e19aa9c3d0f91b39202fabadc4f0a0fcbb53b241"
+  },
+  {
+   "path": "ink/PHerc0800/vc3d_overlays/PHerc0800_ink_readerv2_fwd.zarr",
+   "kind": "tree",
+   "files": 648,
+   "bytes": 53371149,
+   "tree_sha256": "4b9c74e7f81efb168e95932b8c4df8f04feedf30b54cd08b74014d54b9a97698"
+  },
+  {
+   "path": "ink/PHerc0800/vc3d_overlays/PHerc0800_surface_m7.zarr",
+   "kind": "tree",
+   "files": 497,
+   "bytes": 607124138,
+   "tree_sha256": "feb46a0f61324c247886b961e96b494344d354d850f2daf09a2b6d6a117db6e2"
+  },
+  {
+   "path": "ink/PHerc1447/20250502180708-auto_grown_20250502160708188",
+   "kind": "tree",
+   "files": 411,
+   "bytes": 2408087,
+   "tree_sha256": "89833607e3c65d24b087fd7f621a74693404db0877e0eec6a24ba1578f251682"
+  },
+  {
+   "path": "ink/PHerc1447/20250502180748-auto_grown_20250502160748721",
+   "kind": "tree",
+   "files": 465,
+   "bytes": 5858556,
+   "tree_sha256": "106e5e85f1ac9937fb53742b46eae7cdcdce0ac3ab990100e91daa49f9aae987"
+  },
+  {
+   "path": "ink/PHerc1447/20250502182142-auto_grown_20250502161324419",
+   "kind": "tree",
+   "files": 399,
+   "bytes": 8603572,
+   "tree_sha256": "5bcb94d4444280532483e8230ddb0c86aedcb9449f1fc880abf6e68eab7ff77d"
+  },
+  {
+   "path": "ink/PHerc1447/20250502182456-auto_grown_20250502161202782",
+   "kind": "tree",
+   "files": 645,
+   "bytes": 10394533,
+   "tree_sha256": "fe81df71c9fa1deb7302154dcc4e28ce9b9f716c12a89d2fe6a947184b722a4d"
+  },
+  {
+   "path": "ink/PHerc1447/20250502183138-auto_grown_20250502162038685",
+   "kind": "tree",
+   "files": 370,
+   "bytes": 160809645,
+   "tree_sha256": "545cb218e24f0535d14c4a2d56a4e76db2f20151326db3bf29279ca78cf84150"
+  },
+  {
+   "path": "ink/PHerc1447/20250502183421-auto_grown_20250502161744358",
+   "kind": "tree",
+   "files": 567,
+   "bytes": 9070118,
+   "tree_sha256": "f1c12413f28130ca96a500a011285fe392c5208488be7916a28e73f9dde58306"
+  },
+  {
+   "path": "ink/PHerc1447/20250502184201-auto_grown_20250502163549332",
+   "kind": "tree",
+   "files": 370,
+   "bytes": 187527706,
+   "tree_sha256": "20c6f3f7d2b505725aecffca9a5d6716a7604752be2edd75438c0cbc251bf083"
+  },
+  {
+   "path": "ink/PHerc1447/20250502184658-auto_grown_20250502163923577",
+   "kind": "tree",
+   "files": 520,
+   "bytes": 283388322,
+   "tree_sha256": "aec088b3e6400471a6bb52ef5e91bb2dec5a3e02ff4298004be5ee24b0ec1f1c"
+  },
+  {
+   "path": "ink/PHerc1447/20250502184845-auto_grown_20250502164121265",
+   "kind": "tree",
+   "files": 495,
+   "bytes": 12457480,
+   "tree_sha256": "1a74733801e05a452a060296c98078796cfff7299bb1a9c757a814cfd2c058e3"
+  },
+  {
+   "path": "ink/PHerc1447/20250502185519-auto_grown_20250502164303733",
+   "kind": "tree",
+   "files": 411,
+   "bytes": 9079755,
+   "tree_sha256": "99a16d0565d55121f4d1236682cb6af82ebc1a9863f9ebf261d77f202a223454"
+  },
+  {
+   "path": "ink/PHerc1447/20250502205333-auto_grown_20250502181030065",
+   "kind": "tree",
+   "files": 448,
+   "bytes": 237078470,
+   "tree_sha256": "c8ddd8cb8ce08ad2cdc6f1e682de8dc8cdda3ffbbca22369dc29c099e3c4556e"
+  },
+  {
+   "path": "ink/PHerc1447/20250702235910-auto_grown_20250702235910292",
+   "kind": "tree",
+   "files": 410,
+   "bytes": 28648997,
+   "tree_sha256": "558a8487e9c6eee19fef7546ec06dd5f6e1b569e5b115d0ea4536b36dd4727a8"
+  },
+  {
+   "path": "ink/PHerc1447/20250703025628-auto_grown_20250703025628283",
+   "kind": "tree",
+   "files": 771,
+   "bytes": 40779534,
+   "tree_sha256": "ee32d603718f41fae480562284317dca4680bb99aaaf6ac3804aa752027a455c"
+  },
+  {
+   "path": "ink/PHerc1447/20250703034159-auto_grown_20250703034159599",
+   "kind": "tree",
+   "files": 778,
+   "bytes": 483608632,
+   "tree_sha256": "ec33288d4d60ef5bbc5e67095293608ed073d8fd83bb5be6342d314abbae8119"
+  },
+  {
+   "path": "ink/PHerc1447/20251105093211-z_dbg_gen_00320",
+   "kind": "tree",
+   "files": 3867,
+   "bytes": 50242776,
+   "tree_sha256": "f87720013f25e610daebcb501f43eda844d702442ff5ddce3a402995ad91edd6"
+  },
+  {
+   "path": "ink/PHerc1447/vc3d_overlays/PHerc1447_ink_ensemble_fwd.zarr",
+   "kind": "tree",
+   "files": 7387,
+   "bytes": 165211130,
+   "tree_sha256": "25699f9a629b881d185744f1a5b80de9d23c25987676ed7d5345f8705a5cfe9c"
+  },
+  {
+   "path": "ink/PHerc1447/vc3d_overlays/PHerc1447_ink_ensemble_rev.zarr",
+   "kind": "tree",
+   "files": 7387,
+   "bytes": 178821167,
+   "tree_sha256": "7c1263aaa06fb3b192db97342de9512bb4d1ecc6306faf778f0e7133fc6965b4"
+  },
+  {
+   "path": "ink/PHerc1447/vc3d_overlays/PHerc1447_ink_readerv2_fwd.zarr",
+   "kind": "tree",
+   "files": 7387,
+   "bytes": 201261678,
+   "tree_sha256": "719aa9312690070354d6fda704b231469ea5fd9c422f1d8307f102edbefedbf1"
+  },
+  {
+   "path": "ink/README.md",
+   "kind": "file",
+   "files": 1,
+   "bytes": 4085,
+   "sha256": "fb54ef91c24e153850c6f3fc904484686f942c7bd14d9f565c57c3c15ee43099"
+  },
+  {
+   "path": "ink/status.json",
+   "kind": "file",
+   "files": 1,
+   "bytes": 4007,
+   "sha256": "7948c591054a8e7c24585fd7e4ac6c6c91627ce236b32fca241661d5d3cf6f23"
+  },
+  {
+   "path": "ink/surface_status.json",
+   "kind": "file",
+   "files": 1,
+   "bytes": 426,
+   "sha256": "76d97e27f09850a14dd6b481675e3d940f0375cad701b810aa2f7691e65e610e"
+  }
+ ],
+ "total_files": 37054,
+ "total_bytes": 3023994379
+}

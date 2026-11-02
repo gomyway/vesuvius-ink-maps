@@ -1,0 +1,83 @@
+{
+ "generated_utc": "2026-11-02T00:29:15Z",
+ "note": "surface_m7 sample-block outputs (uint8 ZYX .npy, 640^3 or 384^3 L0 block of PHerc1447 at z 12416, y 2432, x 3840)",
+ "entries": [
+  {
+   "path": "data/out/surf_384_p192.npy",
+   "bytes": 56623232,
+   "sha256": "1f4c0275f7063271640cbec26542e0eb0ba84b5a3d3424231e787b67b5a6f5de"
+  },
+  {
+   "path": "data/out/surf_640_p128.npy",
+   "bytes": 262144128,
+   "sha256": "076098aecc3ad31fb93ec7e5a54b6c34b3831e822fc8d725801cabe43b018131"
+  },
+  {
+   "path": "data/out/surf_640_p192.npy",
+   "bytes": 262144128,
+   "sha256": "16e5d8611ff0777d5f0c231701c04b78120f4926db82ac261af90e9232d9d535"
+  },
+  {
+   "path": "data/out/surf_640_p192_step1.npy",
+   "bytes": 262144128,
+   "sha256": "fd34d9ee4d8e74270b56c42d5dd4a633a8b7b25cb3f9a6ac58878bfa19edcd0c"
+  },
+  {
+   "path": "data/out/surf_640_p96.npy",
+   "bytes": 262144128,
+   "sha256": "b1f36f949e3dd6e89a679f143202ac15bca80dfbd967a3e0836d405a40d0f18c"
+  },
+  {
+   "path": "data/out/surf_lowmem_640_p128_hostA.npy",
+   "bytes": 262144128,
+   "sha256": "723fa1beefe76d8f2264ad94eb2dcf915c7a379d5d418e6308ae94501107ac27"
+  }
+ ],
+ "segment_overlays": {
+  "generated_utc": "2026-11-02T06:57Z",
+  "note": "scroll-space surface_m7 overlays (sparse OME-Zarr, VC3D meta.json; one per scroll, written segment by segment by scripts/surface_segment_cpu.py); check = scripts/check in surface_segment_cpu.py (meta, 6 level shapes, readback at 2000 tifxyz surface points vs random bbox voxels)",
+  "segments_done": 3,
+  "of": 21,
+  "overlays": {
+   "PHerc0800": {
+    "path": "data/ink/PHerc0800/vc3d_overlays/PHerc0800_surface_m7.zarr",
+    "kind": "tree",
+    "files": 3541,
+    "bytes": 4539560721,
+    "tree_sha256": "927b11e8c8428e0df0a390cde6ff06672ea28a3993271a365943e8fa582a470b",
+    "segments": {
+     "20251029010146": {
+      "pass": true,
+      "checks": "11/11",
+      "at": "2026-11-02T02:23:24Z",
+      "device": "cpu",
+      "patch": 192,
+      "step": 0.75,
+      "loop_s": 5412.3,
+      "torch_max_allocated_MiB": 0
+     },
+     "20251028220042": {
+      "pass": true,
+      "checks": "11/11",
+      "at": "2026-11-02T06:06:28Z",
+      "device": "cuda",
+      "patch": 128,
+      "step": 0.5,
+      "loop_s": 865.11,
+      "torch_max_allocated_MiB": 1572
+     },
+     "20251028220955": {
+      "pass": true,
+      "checks": "11/11",
+      "at": "2026-11-02T06:28:12Z",
+      "device": "cuda",
+      "patch": 128,
+      "step": 0.5,
+      "loop_s": 703.56,
+      "torch_max_allocated_MiB": 1572
+     }
+    }
+   }
+  }
+ }
+}
